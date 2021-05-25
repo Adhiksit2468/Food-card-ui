@@ -1,0 +1,127 @@
+/*We will style our html code over here*/
+
+body{
+    background-color:brown;
+
+}
+
+.text-container{
+    margin-top: 5rem;
+    margin-left: 40rem;
+    padding: 0 2.5rem;
+    width: 30rem;
+    height:29rem;
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    position:fixed;
+}
+
+.img-container{
+    background-image: url('https://i.ibb.co/THJpVnP/pizza.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:5rem;
+    margin-left: 8rem;
+    padding: 0 2.5rem;
+    width: 30rem;
+    height:29rem;
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    position:fixed;
+
+}
+
+.ingredients{
+    font-size: 19px;
+    text-align:center;
+    font-family:'Montserrat', cursive;
+    color: red;
+    font-weight: 550;
+    margin-top: -2rem;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', cursive;
+    color: grey;
+}
+
+.add-to-cart{
+    color: white;
+    background-image:linear-gradient(to bottom left, #FF512F, #dd2476);
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Montserrat', cursive;
+    width: 250px;
+    align-items:center;
+    justify-content:center;
+    margin-left:14rem;
+    margin-top:-26.2rem;
+}
+
+.add-to-cart:hover{
+    background-image: linear-gradient(to bottom left, #DC2424, #4a469d);
+}
+
+.present-price{
+    text-align: right;
+    color: #eb5026;
+    font-family: 'Montserrat', cursive;
+    font-size: 30px;
+    margin-top: -8.5rem;
+    animation-name: floating;
+    animation-iteration-count:infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0, 15px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+}
+
+.rating{
+    color:orange;
+    font-size: 20px;
+    align-self:left;
+    text-align: left;
+
+}
+
+.destination{
+    color:red;
+    font-size: 20px;
+    text-align:right;
+    align-self: right;
+    margin-top:-2.5rem;
+}
+
+.past-price{
+    text-align: left;
+    color:grey;
+    font-family: 'Montserrat', cursive;
+    font-size: 35px;
+    text-decoration: line-through;
+}
+
+/*So yes we have finished our Code oof Food card UI design. So I jpe you liked it. Dont forget to subscribe to Infinite coder. Thanks stay safe
+and Happy coding*/
